@@ -8,7 +8,7 @@ There are two fundamental problems:
 
 * human brains are not designed to communicate with that many people at once. 
 
-* what one person think is nice behaviour, can be at the same time be aggravating behaviour to another person. And vice-versa.
+* what one person thinks is nice behaviour, can be at the same time be aggravating behaviour to another person. And vice-versa.
 
 Neither of those are purely technology problems, they are problems that arise from humans using the internet to communicate with each other.
 
@@ -51,7 +51,7 @@ The number of core contributors that have walked away from the PHP project is qu
 
 Attempts at moderating people's behaviour on the PHP project have either all failed, or even worse resulted in blow-back for the people attempting to make the project not be a shithole.
 
-The tools setup for moderation must be easy and powerful enough that people who are 
+The tools setup for moderation must be easy and powerful enough to use that people who are trusted to perform moderation actually choose to use them, rather than thinking that 
 
 ### Small moderation is more useful than drastic moderation
 
@@ -117,20 +117,32 @@ A system that allows moderation of messages in a room, and blocking some people 
 
 ### Room
 
-A place on the internet where messages actually get sent for a particular topic, owner by a particular set of people. Technology wise, the are something between https://matrix.org/ and room11 with the ability to addin functionality, and pull/push data from external sources. 
+A place on the internet where messages actually get sent for a particular topic, owner by a particular set of people. Technology wise, the are something between https://matrix.org/ and room11 with the ability to add-in functionality, and pull/push data from external sources. 
 
 ### Voting
 
 A defined format for proposing and then carrying out a vote in a room.
 
 
+## Nice to have pieces
+
+These pieces are not needed to produce a minimal viable product, though they could be useful eventually.
+
+### Linking to documents
+
+There is a general need to be able to present a set of links to other places on the web that are related to each room.
+
+Examples include a code of conduct, or how to apply to join a room.
+
+### Weighting
+
+People who do the work, should have a higher 'weight' than people who have contributed very little or no work. It's not exactly clear what the weight should be used for, but it would be a useful indicator for people new to the group.
+
 ## Things that are not needed
 
 ### Knowledge base
 
 Although most communities could do with a knowledge base, and a way to run query against that knowledge base, this not something I currently think is a requirement. Working on all the other stuff would make it much easier for other people to work on tools like this.
-
-
 
 
 ## Notes
