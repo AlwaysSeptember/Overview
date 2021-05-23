@@ -51,7 +51,7 @@ The number of core contributors that have walked away from the PHP project is qu
 
 Attempts at moderating people's behaviour on the PHP project have either all failed, or even worse resulted in blow-back for the people attempting to make the project not be a shithole.
 
-The tools setup for moderation must be easy and powerful enough to use that people who are trusted to perform moderation actually choose to use them, rather than thinking that 
+The tools setup for moderation must be easy and powerful enough to use that people who are trusted to perform moderation actually choose to use them, rather than thinking that "I can't be arsed to do this moderation", I'll just pretend I didn't see that bad behaviour.
 
 ### Small moderation is more useful than drastic moderation
 
