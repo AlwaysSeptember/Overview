@@ -101,49 +101,6 @@ Additionally, some components just won't be fit for purpose, and will need to be
 
 Sometimes it is appropriate to fork projects. Code can be forked by a press of a button. Forking the communication methods is really hard. That means that forks are not occurring when they should be, which leads to projects dying and general unhappiness.
 
-## Required pieces
-
-### Authentication
-
-A component that allows authentication of people using external auth systems.
-
-### Data feeds
-
-Allow data to be move between rooms or to/from other places on the web e.g. bugs.php.net or twitter.
-
-### Moderation
-
-A system that allows moderation of messages in a room, and blocking some people from joining in a room.
-
-### Room
-
-A place on the internet where messages actually get sent for a particular topic, owner by a particular set of people. Technology wise, the are something between https://matrix.org/ and room11 with the ability to add-in functionality, and pull/push data from external sources. 
-
-### Voting
-
-A defined format for proposing and then carrying out a vote in a room.
-
-
-## Nice to have pieces
-
-These pieces are not needed to produce a minimal viable product, though they could be useful eventually.
-
-### Linking to documents
-
-There is a general need to be able to present a set of links to other places on the web that are related to each room.
-
-Examples include a code of conduct, or how to apply to join a room.
-
-### Weighting
-
-People who do the work, should have a higher 'weight' than people who have contributed very little or no work. It's not exactly clear what the weight should be used for, but it would be a useful indicator for people new to the group.
-
-## Things that are not needed
-
-### Knowledge base
-
-Although most communities could do with a knowledge base, and a way to run query against that knowledge base, this not something I currently think is a requirement. Working on all the other stuff would make it much easier for other people to work on tools like this.
-
 
 ## Notes
 
